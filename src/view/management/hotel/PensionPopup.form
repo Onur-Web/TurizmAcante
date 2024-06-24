@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.management.hotel.PensionPopup">
+  <grid id="27dc6" binding="container" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ba930" class="javax.swing.JCheckBox" binding="checkBox_ultra_all_included">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ultra All Included"/>
+        </properties>
+      </component>
+      <component id="a739a" class="javax.swing.JCheckBox" binding="checkBox_all_included">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="All Included"/>
+        </properties>
+      </component>
+      <component id="51dac" class="javax.swing.JCheckBox" binding="checkBox_room_breakfast">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Room BreakFast"/>
+        </properties>
+      </component>
+      <component id="15596" class="javax.swing.JCheckBox" binding="checkBox_full_pension">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Full Pension"/>
+        </properties>
+      </component>
+      <component id="d9b0f" class="javax.swing.JCheckBox" binding="checkBox_half_pension">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Half Pension"/>
+        </properties>
+      </component>
+      <component id="d36c1" class="javax.swing.JCheckBox" binding="checkBox_only_bed">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Only Bed"/>
+        </properties>
+      </component>
+      <component id="9d2db" class="javax.swing.JCheckBox" binding="checkBox_non_alcohol_full_credit">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Non Alcohol Full Credit"/>
+        </properties>
+      </component>
+      <component id="2d14" class="javax.swing.JButton" binding="button_update_pensions">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
